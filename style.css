@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Plain Light";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+}
+#cursor{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border:2px solid #ffffffa9;
+    position: fixed;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
+#main{
+    position: relative;
+    background-color: #151515;
+}
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+    z-index: 999;
+    padding: 12vw 5vw ;
+}
+#firstline{
+    display: flex;
+    /* background: rgb(72, 110, 122); */
+    gap: 6vw;
+}
+#counter{
+    display: flex;
+    gap: 1vw;
+}
+#counter h4, #counter h5{
+    font-size: 2.5vw;
+    font-family: "Silk Serif";
+    margin-top: 1vw;
+    font-weight: 300;
+}
+#counter h4{
+    text-align: right;
+    width: 5vw;
+}
+.line{
+    /* background-color: crimson; */
+    height: fit-content;
+    overflow: hidden;
+    
+}
+.line h1{
+    text-transform: uppercase;
+    font-size: 6.5vw;
+    font-weight: 500;
+    font-family: "Plain Light";
+}
+#lastLine{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+#lastLine h2{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 500;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+ @keyframes anime {
+    0%{
+        font-family: "Plain Light";
+    }
+    100%{
+        font-family: "Silk Serif";
+        color: transparent;
+        -webkit-text-stroke: 2px #fff;
+        
+       
+    }
+ }
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    
+}
+#main_nav{
+    padding: 4vw 6vw;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+#left .brand__svg{
+    width: 8vw;
+    height: 2vw;
+    
+}
+#right{
+    display: flex;
+    gap: 4vw;
+}
+#right h4{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.hero h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 550;
+    margin-left: 25%;
+    line-height: 8vw;
+}
+.hero h2{
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 550;
+    /* background-color: red; */
+    text-decoration: underline;
+}
+.hero:nth-child(2){
+    margin-top: 7vh;
+}
+#web_graphic{
+    display: flex;
+    align-items: center;
+}
+
+#web_graphic h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+#web_graphic h2:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px #fff; 
+    text-decoration: none;
+}
