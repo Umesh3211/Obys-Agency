@@ -119,7 +119,7 @@ html, body{
     font-size: 8vw;
     text-transform: uppercase;
     font-weight: 550;
-    margin-left: 25%;
+    margin-left: 25%;              /********margin-part*********/
     line-height: 8vw;
 }
 .hero h2{
@@ -135,6 +135,7 @@ html, body{
 #web_graphic{
     display: flex;
     align-items: center;
+    transition: all ease 0.3s;
 }
 
 #web_graphic h1:hover{
@@ -145,4 +146,234 @@ html, body{
     color: transparent;
     -webkit-text-stroke: 2px #fff; 
     text-decoration: none;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(107, 110, 109); */
+    
+}
+#video_container{
+    width: 70%;
+    height: 70vh;
+    margin-left: 30%;
+    margin-top: 10%;
+    position: relative;
+}
+#video_container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+}
+#v_cursor{
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    background-color:#FFA63D;
+    position: absolute;
+    z-index:999;
+    top: -15%;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#v_cursor i {
+    font-size: 2vw;
+}
+#video_container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgb(236, 236, 187); */
+    position: relative;
+}
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgb(90, 90, 89); */
+    position: relative;
+}
+#page4-content{
+    width: 75vw;
+    margin-left: 25%;   
+}
+#underline{
+    height: 3px;
+    width: 90%;
+    background-color: #bebebeab;
+    margin: 4vw 0;
+}
+#page4-content h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#page4-content p{
+    font-size: 2.4vw;
+    width:40%;
+}
+#page4-flex{
+    display: flex;
+    width: 80%;
+    /* background-color: antiquewhite; */
+    gap: 2vw;
+    margin-top: 4vw;
+}
+#page4-flex img{
+   width: 60%;
+   height: 85vh;
+   object-fit: cover;
+   z-index: 1;
+   
+}
+#page4-flex p{
+    width: 30%;
+    height: fit-content;
+    font-size: 1vw;
+ }
+ #page4-table{
+    width: 35vw;
+    height: fit-content;
+    background-color:#3F7DF4;
+    position: relative;
+    margin-left: 32%;
+    margin-top: -18%;
+    z-index: 1000;
+    padding: 4vw 4vw;
+    margin-bottom: 20vh;
+ }
+.table-content{
+    height: 6.5vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    justify-content: flex-start;
+}
+
+#page4-table .table-content h3 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    width: 60%;
+}
+#page4-table .table-content h4 {
+    font-size: 1vw;
+    font-weight: 500;
+}
+#clients{
+    width: fit-content;
+    margin-top: -3vw;
+    margin-bottom: 15vh;
+}
+#clients h4{
+    font-size: 1vw;
+    color: #FFFFFF;
+    position: relative;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    position: relative;
+}
+.elem{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-x: hidden;
+    margin-top: -8vh;
+}
+#page5 .elem h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+   -webkit-text-stroke: 3px #D0D0D0;
+   color: transparent;
+   font-weight: 595;
+   display: inline-block;
+   animation-name: anime1;
+   animation-duration:15s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+#elem1 h1{
+    animation-name: anime2;
+    animation-duration: 15s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+   font-family: "Silk Serif";
+   animation-timing-function: linear;
+}
+
+@keyframes anime1 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes anime2 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.elem span{
+    font-family: "Silk Serif";
+    color: transparent;
+}
+#elem1 span{
+    font-family: "Plain Light";
+    color: transparent;
+}
+
+#page6{
+    width: 75vw;
+    margin-left: 25%;   
+    height: 100vh;
+    position: relative;
+}
+#page6 h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* background-color: #FFA63D; */
+    height: 20vh;
+    transition: all ease-in;
+    /* transition-duration: 2s; */
+}
+#page6 h1:hover{
+    font-family: "Silk Serif";
+   -webkit-text-stroke: 2px #fff;
+   color: transparent;
+   font-weight: 200;
+}
+#footer-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12vw;
+}
+.box h5{
+    font-size: 1vw;
+    margin-bottom: 4vh;
+    font-weight: 600;
+}
+.box h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#copywrite{
+    font-size: 1.2vw;
+    font-weight: 500;
 }
