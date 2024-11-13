@@ -35,7 +35,6 @@ html, body{
 }
 #firstline{
     display: flex;
-    /* background: rgb(72, 110, 122); */
     gap: 6vw;
 }
 #counter{
@@ -53,7 +52,6 @@ html, body{
     width: 5vw;
 }
 .line{
-    /* background-color: crimson; */
     height: fit-content;
     overflow: hidden;
     
@@ -89,23 +87,18 @@ html, body{
        
     }
  }
-
-
 #page1{
     height: 100vh;
     width: 100%;
-    
 }
 #main_nav{
     padding: 4vw 6vw;
     display: flex;
     justify-content: space-between;
-    /* background-color: red; */
 }
 #left .brand__svg{
     width: 8vw;
     height: 2vw;
-    
 }
 #right{
     display: flex;
@@ -114,6 +107,7 @@ html, body{
 #right h4{
     font-size: 1vw;
     font-weight: 400;
+    font-family: "Plain Light";
 }
 .hero h1{
     font-size: 8vw;
@@ -122,6 +116,7 @@ html, body{
     margin-left: 25%;              
     line-height: 8vw;
     position: relative;
+    font-family: "Plain Light";
 }
 #hero-firsth1 h1::before{
     content: "01";
@@ -138,6 +133,7 @@ html, body{
     font-weight: 550;
     /* background-color: red; */
     text-decoration: underline;
+    font-family: "Plain Light";
 }
 .hero:nth-child(2){
     margin-top: 7vh;
@@ -228,6 +224,7 @@ html, body{
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
+    font-family: "Plain Light";
 }
 #page4-content h1::before{
     content: "03";
@@ -241,6 +238,7 @@ html, body{
 #page4-content p{
     font-size: 2.4vw;
     width:40%;
+    font-family: "Plain Light";
 }
 #page4-flex{
     display: flex;
@@ -260,6 +258,7 @@ html, body{
     width: 30%;
     height: fit-content;
     font-size: 1vw;
+    font-family: "Plain Light";
  }
  #page4-table{
     width: 35vw;
@@ -284,15 +283,18 @@ html, body{
     font-size: 1.8vw;
     font-weight: 500;
     width: 60%;
+    font-family: "Plain Light";
 }
 #page4-table .table-content h4 {
     font-size: 1vw;
     font-weight: 500;
+    font-family: "Plain Light";
 }
 #clients{
     width: fit-content;
     margin-top: -3vw;
     margin-bottom: 15vh;
+    font-family: "Plain Light";
 }
 #clients h4{
     font-size: 1vw;
@@ -367,11 +369,10 @@ html, body{
     font-size: 8vw;
     text-transform: uppercase;
     font-weight: 600;
-    /* background-color: #FFA63D; */
     height: 20vh;
     transition: all ease-in;
-    /* transition-duration: 2s; */
     position: relative;
+    font-family: "Plain Light";
 }
 #page6 h1::before{
     content: "04";
@@ -398,12 +399,15 @@ html, body{
     font-size: 1vw;
     margin-bottom: 4vh;
     font-weight: 600;
+    font-family: "Plain Light";
 }
 .box h4{
     font-size: 1.5vw;
     font-weight: 500;
+    font-family: "Plain Light";
 }
 #copywrite{
     font-size: 1.2vw;
     font-weight: 500;
+    font-family: "Plain Light";
 }
