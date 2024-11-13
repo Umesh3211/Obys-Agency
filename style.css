@@ -121,6 +121,16 @@ html, body{
     font-weight: 550;
     margin-left: 25%;              /********margin-part*********/
     line-height: 8vw;
+    position: relative;
+}
+#hero-firsth1 h1::before{
+    content: "01";
+    font-family: "silk serif";
+    position: absolute;
+    left: -13%;
+    font-size: 3vw;
+    font-weight: 500;
+    top: -15%;
 }
 .hero h2{
     font-size: 8vw;
@@ -217,6 +227,16 @@ html, body{
     font-size: 8vw;
     text-transform: uppercase;
     font-weight: 600;
+    position: relative;
+}
+#page4-content h1::before{
+    content: "03";
+    font-family: "silk serif";
+    position: absolute;
+    left: -12%;
+    font-size: 3vw;
+    font-weight: 500;
+    top: 10%;
 }
 #page4-content p{
     font-size: 2.4vw;
@@ -351,6 +371,16 @@ html, body{
     height: 20vh;
     transition: all ease-in;
     /* transition-duration: 2s; */
+    position: relative;
+}
+#page6 h1::before{
+    content: "04";
+    font-family: "silk serif";
+    position: absolute;
+    left: -12%;
+    font-size: 3vw;
+    font-weight: 500;
+    top: 10%;
 }
 #page6 h1:hover{
     font-family: "Silk Serif";
